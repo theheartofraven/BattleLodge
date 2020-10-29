@@ -174,6 +174,8 @@ int mc_MultiChainFilterEngine::Zero()
     m_CallbackNames.clear();
     m_CodeLibrary=NULL;
     
+    m_CoinsCache=NULL;
+
     return MC_ERR_NOERROR;
 }
 
