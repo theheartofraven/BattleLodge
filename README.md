@@ -37,7 +37,7 @@ BattleLodge requires Boost version no later than 1.65.
 Clone BattleLodge
 ----------------
 
-    git clone https://github.com/MultiChain/multichain.git
+    git clone https://github.com/theheartofraven/BattleLodge.git
 
 Prepare to download or build V8
 -------------------
