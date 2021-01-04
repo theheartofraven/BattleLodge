@@ -1,7 +1,7 @@
-MultiChain
+BattleLodge
 ==========
 
-[MultiChain](http://www.multichain.com/) is an open source platform for private blockchains, which offers a rich set of features including extensive configurability, rapid deployment, permissions management, native assets and data streams. Although it is designed to enable private blockchains, MultiChain provides maximal compatibility with the bitcoin ecosystem, including the peer-to-peer protocol, transaction/block formats and [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/) APIs/runtime parameters.
+[BattleLodge](http://www.battlelodge.ro/) is an open source platform for private blockchains, which offers a rich set of features including extensive configurability, rapid deployment, permissions management, native assets and data streams. Although it is designed to enable private blockchains, MultiChain provides maximal compatibility with the bitcoin ecosystem, including the peer-to-peer protocol, transaction/block formats and [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/) APIs/runtime parameters.
 
     Copyright (c) 2014-2019 Coin Sciences Ltd
     License: GNU General Public License version 3, see COPYING
@@ -30,11 +30,11 @@ Install dependencies
     sudo apt-get install -y libdb4.8-dev libdb4.8++-dev
     sudo pip install pathlib2
 
-MultiChain requires Boost version no later than 1.65.
+BattleLodge requires Boost version no later than 1.65.
 
     sudo apt-get install -y libboost1.65-all-dev
 
-Clone MultiChain
+Clone BattleLodge
 ----------------
 
     git clone https://github.com/MultiChain/multichain.git
@@ -49,7 +49,7 @@ Prepare to download or build V8
     
 You can use pre-built headers and binaries of Google's V8 JavaScript engine by downloading and expanding [linux-v8.tar.gz](https://github.com/MultiChain/multichain-binaries/raw/master/linux-v8.tar.gz) in the current directory. If, on the other hand, you prefer to build the V8 component yourself, please follow the instructions in [V8.md](/V8.md/).
 
-Compile MultiChain for Ubuntu (64-bit)
+Compile BattleLodge for Ubuntu (64-bit)
 -----------------------------
 
     cd $MULTICHAIN_HOME
